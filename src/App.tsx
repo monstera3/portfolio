@@ -24,7 +24,7 @@ export const App = () => {
   return(
     <>
       <GlobalStyle />
-      <Container>
+      <Container backgroundColor={color}>
         <h2>{color}</h2>
         <p>JavaScriptでスクロールに合わせて背景色のCSSを変更する方法</p>
       </Container>
@@ -57,7 +57,9 @@ const GlobalStyle = createGlobalStyle`
 `;
 
 
-const Container = styled.div`
+const Container = styled.div<{ backgroundColor: string }>`
+  height: 100%;
+  background: ${({backgroundColor}) => backgroundColor};
 
   h2 {
     position: fixed;
