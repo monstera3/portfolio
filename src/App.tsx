@@ -4,21 +4,28 @@ import {createGlobalStyle} from "styled-components";
 
 export const App = () => {
 
-  const [isText, setIsText] = useState(true);
-  const toggleText = () => {
-    window.scrollY < 500 ? setIsText(true) : setIsText(false);
+  const [color,setColor] = useState('#FF4081')
+  const changeColor = () => {
+    const y = window.scrollY;
+    if (y < 500) {
+      setColor('#FF4081');
+    } else if (500 <= y && y < 1000) {
+      setColor('red');
+    } else {
+      setColor('green');
+    }
   }
 
   useEffect(() => {
-    window.addEventListener('scroll', toggleText)
-    return () => window.removeEventListener('scroll', toggleText)
+    window.addEventListener('scroll', changeColor)
+    return () => window.removeEventListener('scroll', changeColor)
   }, []);
 
   return(
     <>
       <GlobalStyle />
       <Container>
-        { isText ? <h2>Let's SCROLL</h2> : <h2>😁</h2> }
+        <h2>{color}</h2>
         <p>JavaScriptでスクロールに合わせて背景色のCSSを変更する方法</p>
       </Container>
 
