@@ -6,9 +6,13 @@ export const Top=()=>{
   return(
     <TopAll>
       <div className="title">
-        <h1>sugimura natsumi <br/>
-        portfolio</h1>
+        <h1>
+          <span >sugimura natsumi</span>
+          <br/>
+          <span>portfolio</span>
+        </h1>
 
+        <p className="animate bounce infinite">qqqqqqqqqqqqqq</p>
       </div>
     </TopAll>
 
@@ -41,3 +45,5 @@ const TopAll = styled.div`
   }
   
 `;
+
+

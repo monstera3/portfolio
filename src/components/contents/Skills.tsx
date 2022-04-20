@@ -54,7 +54,6 @@ const SkillsAll = styled.div`
       font-size: 2rem;
     }
     .skill-card{
-      //text-align: center;
       display: grid;
       grid-template-columns: 1fr 1fr 1fr 1fr;
       grid-template-rows: 150px 150px 150px;
