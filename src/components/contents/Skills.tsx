@@ -1,4 +1,6 @@
 import styled from 'styled-components';
+import htmlImg from '../../assets/images/html-5.svg';
+import cssImg from '../../assets/images/css-3.svg'
 
 
 
@@ -10,8 +12,8 @@ export const Skills=()=>{
       <div className="skill-container">
         <h2 className="category">SKILLS</h2>
         <div className="skill-card">
-          <div className="item">item</div>
-          <div className="item">item</div>
+          <div className="item"><img src={htmlImg} alt=""/>HTML5</div>
+          <div className="item"><img src={cssImg} alt=""/>CSS3</div>
           <div className="item">item</div>
           <div className="item">item</div>
           <div className="item">item</div>
@@ -64,6 +66,13 @@ const SkillsAll = styled.div`
         text-align: center;
         width: 150px;
         box-shadow: 5px 5px 10px -10px #777777;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        img{
+          width: 50px;
+        }
       }
     }
   }
