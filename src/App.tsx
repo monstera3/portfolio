@@ -10,8 +10,8 @@ export const App = () => {
     const y = window.scrollY;
     if (y < 500) {
       setColor('#ABCCD0');
-    } else if (500 <= y && y < 1000) {
-      setColor('#AFCECC');
+    } else if (500 <= y && y < 2000) {
+      setColor('#FCE5CE');
     } else {
       setColor('#A8C6CA');
     }
@@ -45,10 +45,7 @@ const GlobalStyle = createGlobalStyle`
 
   a{
     text-decoration: none;
-    color: #666;
-  }
-  img{
-    width: 100%;
+    color: #091B11;
   }
 
 `;

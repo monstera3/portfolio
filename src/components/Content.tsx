@@ -14,11 +14,12 @@ export const Content = (props: { backgroundColor: string }) => {
 
 const Container = styled.div<{ backgroundColor: string }>`
   //height: 100%;
+  transition: 2s;
   height: 5000px;
   background: ${({backgroundColor}) => backgroundColor};
 
   h2 {
-    position: fixed;
+    //position: fixed;
     top: 0;
     padding: 10px;
     color: black;
