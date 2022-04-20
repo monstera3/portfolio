@@ -4,16 +4,16 @@ import { Content } from './components/Content';
 
 export const App = () => {
 
-  const [color,setColor] = useState('#F5ECE4')
+  const [color,setColor] = useState('white')
   const changeColor = () => {
     const y = window.scrollY;
-    if (y < 500) {
-      setColor('#F5ECE4');
-    } else if (500 <= y && y < 1000) {
+    if (y < 700) {
+      setColor('white');
+    } else if (700 <= y && y < 1400) {
       setColor('#A8C6CA');
-    } else if (1000 <= y && y < 1500){
+    } else if (1400 <= y && y < 2100){
       setColor('#F5ECE4');
-    }else if (1500 <= y && y < 2000){
+    }else if (2100 <= y && y < 2800){
       setColor('#6495ed');
     }else{
       setColor('#FCE5CE');
@@ -39,6 +39,7 @@ const GlobalStyle = createGlobalStyle`
     font-family: Vesterbro, Times, serif;
     margin: 0;
     padding: 0;
+    color: #091B11;
   }
   #root li{
     list-style: none;
