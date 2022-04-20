@@ -35,7 +35,6 @@ const GlobalStyle = createGlobalStyle`
     font-family: Vesterbro, Times, serif;
     margin: 0;
     padding: 0;
-    transition: 3s;
   }
   #root li{
     list-style: none;

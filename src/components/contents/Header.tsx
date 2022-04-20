@@ -22,12 +22,16 @@ export const Header=()=>{
 const HeaderAll = styled.div`
   display: flex;
   justify-content: space-between;
-  padding:2%;
+  padding:2% 3%;
   img{
-    width: 5%;
+    width: 50px;
   }
   ul{
     display: flex;
+    ;
+    li{
+      padding-right: 5%;
+    }
   }
   
 `;
