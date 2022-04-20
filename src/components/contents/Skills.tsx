@@ -64,7 +64,7 @@ const SkillsAll = styled.div`
         background-color: white;
         text-align: center;
         width: 150px;
-        box-shadow: 5px 5px 10px -10px #777777;
+        box-shadow: 5px 8px 16px -10px #777777;
         display: flex;
         flex-direction: column;
         align-items: center;

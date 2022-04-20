@@ -4,11 +4,11 @@ import { Content } from './components/Content';
 
 export const App = () => {
 
-  const [color,setColor] = useState('white')
+  const [color,setColor] = useState('#FEFEF2')
   const changeColor = () => {
     const y = window.scrollY;
     if (y < 700) {
-      setColor('white');
+      setColor('#FEFEF2');
     } else if (700 <= y && y < 1400) {
       setColor('#A8C6CA');
     } else if (1400 <= y && y < 2100){
