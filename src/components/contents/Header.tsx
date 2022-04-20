@@ -1,4 +1,4 @@
-import sampleImg from "../assets/images/sample1.png";
+import sampleImg from '../../assets/images/sample1.png';
 import styled from 'styled-components';
 
 
@@ -6,20 +6,20 @@ import styled from 'styled-components';
 export const Header=()=>{
 
   return(
-    <HeaderTop>
+    <HeadderAll>
       <img src={sampleImg} alt=""/>
       <ul>
         <li>WORKS</li>
         <li>SKILLS</li>
         <li>PROFILE</li>
       </ul>
-    </HeaderTop>
+    </HeadderAll>
 
   );
 
 }
 
-const HeaderTop = styled.div`
+const HeadderAll = styled.div`
   display: flex;
   justify-content: space-between;
   img{

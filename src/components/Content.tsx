@@ -1,10 +1,15 @@
 
 import styled from 'styled-components';
+import { Header } from './contents/Header';
+import React from 'react';
+import { Top } from './contents/Top';
 
 
 export const Content = (props: { backgroundColor: string }) => {
   return(
     <Container backgroundColor={props.backgroundColor}>
+      <Header />
+      <Top/>
       <h2>{props.backgroundColor}</h2>
       <p>JavaScriptでスクロールに合わせて背景色のCSSを変更する方法</p>
     </Container>

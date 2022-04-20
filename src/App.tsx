@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import {createGlobalStyle} from "styled-components";
 import { Content } from './components/Content';
-import { Header } from './components/Header';
 
 export const App = () => {
 
@@ -25,7 +24,6 @@ export const App = () => {
   return(
     <>
       <GlobalStyle />
-      <Header />
       <Content backgroundColor={color}/>
     </>
   );
@@ -34,7 +32,7 @@ export const App = () => {
 
 const GlobalStyle = createGlobalStyle`
   #root {
-    
+    font-family: Vesterbro, Times, serif;
     margin: 0;
     padding: 0;
     transition: 3s;
