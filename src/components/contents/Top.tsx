@@ -19,11 +19,11 @@ export const Top=()=>{
 const TopAll = styled.div`
   max-width: 1000px;
   margin: 0 auto;
-  height: 50rem;
+  height: 60rem;
   display: flex;
   align-items: center;
   .title{
-    font-size: 2.2rem;
+    font-size: 2.4rem;
     line-height: 1.3;
     h1{
       animation: name 1s forwards linear ;

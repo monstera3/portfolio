@@ -3,6 +3,7 @@ import styled from 'styled-components';
 import { Header } from './contents/Header';
 import React from 'react';
 import { Top } from './contents/Top';
+import { Works } from './contents/Works';
 
 
 export const Content = (props: { backgroundColor: string }) => {
@@ -10,8 +11,8 @@ export const Content = (props: { backgroundColor: string }) => {
     <Container backgroundColor={props.backgroundColor}>
       <Header />
       <Top/>
-      <h2>{props.backgroundColor}</h2>
-      <p>JavaScriptでスクロールに合わせて背景色のCSSを変更する方法</p>
+      <Works/>
+      <h2 className="sample">{props.backgroundColor}</h2>
     </Container>
   );
 }
@@ -22,12 +23,10 @@ const Container = styled.div<{ backgroundColor: string }>`
   height: 5000px;
   background: ${({backgroundColor}) => backgroundColor};
 
-  h2 {
+  .sample {
     //position: fixed;
     top: 0;
     padding: 10px;
-    color: black;
-    font-size: 4rem;
   }
   
 `;
