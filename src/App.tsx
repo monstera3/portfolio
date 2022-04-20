@@ -1,18 +1,19 @@
 import React, { useEffect, useState } from 'react';
 import {createGlobalStyle} from "styled-components";
 import { Content } from './components/Content';
+import { Header } from './components/Header';
 
 export const App = () => {
 
-  const [color,setColor] = useState('#FF4081')
+  const [color,setColor] = useState('#ABCCD0')
   const changeColor = () => {
     const y = window.scrollY;
     if (y < 500) {
-      setColor('#FF4081');
+      setColor('#ABCCD0');
     } else if (500 <= y && y < 1000) {
-      setColor('red');
+      setColor('#AFCECC');
     } else {
-      setColor('green');
+      setColor('#A8C6CA');
     }
   }
 
@@ -24,6 +25,7 @@ export const App = () => {
   return(
     <>
       <GlobalStyle />
+      <Header />
       <Content backgroundColor={color}/>
     </>
   );
