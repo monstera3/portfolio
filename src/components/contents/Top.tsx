@@ -25,7 +25,19 @@ const TopAll = styled.div`
   .title{
     font-size: 2.2rem;
     line-height: 1.3;
+    h1{
+      animation: name 1s forwards linear ;
+    }
   }
- 
+  @keyframes name {
+    from {
+      opacity: 0;
+      transform: translateY(50px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
   
 `;
