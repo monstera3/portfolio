@@ -6,22 +6,23 @@ import styled from 'styled-components';
 export const Header=()=>{
 
   return(
-    <HeadderAll>
+    <HeaderAll>
       <img src={sampleImg} alt=""/>
       <ul>
         <li>WORKS</li>
         <li>SKILLS</li>
         <li>PROFILE</li>
       </ul>
-    </HeadderAll>
+    </HeaderAll>
 
   );
 
 }
 
-const HeadderAll = styled.div`
+const HeaderAll = styled.div`
   display: flex;
   justify-content: space-between;
+  padding:2%;
   img{
     width: 5%;
   }
