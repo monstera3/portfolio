@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
-import styled from 'styled-components';
 import {createGlobalStyle} from "styled-components";
+import { Content } from './components/Content';
 
 export const App = () => {
 
@@ -24,11 +24,7 @@ export const App = () => {
   return(
     <>
       <GlobalStyle />
-      <Container backgroundColor={color}>
-        <h2>{color}</h2>
-        <p>JavaScriptでスクロールに合わせて背景色のCSSを変更する方法</p>
-      </Container>
-
+      <Content backgroundColor={color}/>
     </>
   );
 };
@@ -36,8 +32,7 @@ export const App = () => {
 
 const GlobalStyle = createGlobalStyle`
   #root {
-    height: 5000px;
-    background: #FF4081;
+    
     margin: 0;
     padding: 0;
     transition: 3s;
@@ -56,17 +51,3 @@ const GlobalStyle = createGlobalStyle`
 
 `;
 
-
-const Container = styled.div<{ backgroundColor: string }>`
-  height: 100%;
-  background: ${({backgroundColor}) => backgroundColor};
-
-  h2 {
-    position: fixed;
-    top: 0;
-    padding: 10px;
-    color: black;
-    font-size: 4rem;
-  }
-  
-`;
