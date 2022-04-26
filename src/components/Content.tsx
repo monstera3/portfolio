@@ -6,6 +6,7 @@ import { Top } from './contents/Top';
 import { Works } from './contents/Works';
 import { Skills } from './contents/Skills';
 import { Profile } from './contents/Profile';
+import { Footer } from './contents/Footer';
 
 
 export const Content = (props: { backgroundColor: string }) => {
@@ -16,7 +17,7 @@ export const Content = (props: { backgroundColor: string }) => {
       <Works/>
       <Skills/>
       <Profile/>
-      <h2 className="sample">{props.backgroundColor}</h2>
+      <Footer />
     </Container>
   );
 }
