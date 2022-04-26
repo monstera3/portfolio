@@ -36,7 +36,7 @@ export const App = () => {
 
 const GlobalStyle = createGlobalStyle`
   #root {
-    font-family: Vesterbro, Times, serif;
+    font-family: YakuHanJP_Narrow,"Yu Gothic Medium","Yu Gothic",YuGothic,serif;
     margin: 0;
     padding: 0;
     color: #091B11;
