@@ -10,9 +10,9 @@ export const Footer=()=>{
           <a className="f-logo" href="https://www.google.com"><img src={sampleImg} alt="" /></a>
           <nav className="fnav">
             <ul className="fnav-ul">
-              <li className="fnav-li"><a href="https://www.google.com">TOP</a></li>
-              <li className="fnav-li"><a href="https://www.google.com">企業情報</a></li>
-              <li className="fnav-li"><a href="https://www.google.com">事業内容</a></li>
+              <li className="fnav-li"><a href="https://www.google.com">WORKS</a></li>
+              <li className="fnav-li"><a href="https://www.google.com">SKILLS</a></li>
+              <li className="fnav-li"><a href="https://www.google.com">PROFILE</a></li>
             </ul>
 
 
@@ -41,7 +41,13 @@ const FooterAll = styled.div`
     max-width: 1000px;
     margin: 100px auto;
     .f-logo{
-      width: 10%;
+      width: 20px;
+    }
+    .fnav-ul{
+      display: flex;
+      li{
+        margin-right: 50px;
+      }
     }
   }
   .copy{
