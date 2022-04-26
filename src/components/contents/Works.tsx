@@ -6,17 +6,12 @@ import styled from 'styled-components';
 export const Works=()=>{
 
   return(
-    <WorksAll>
+    <WorksAll id="works">
       <div className="work-card">
 
       </div>
-      <h2 id="dog" className="category">WORKS</h2>
+      <h2  className="category">WORKS</h2>
 
-      <section id="cat">
-      <span role="img" aria-label="cat">
-        🐱
-      </span>
-      </section>
 
     </WorksAll>
 

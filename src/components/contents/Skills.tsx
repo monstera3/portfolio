@@ -7,10 +7,10 @@ import cssImg from '../../assets/images/css-3.svg'
 export const Skills=()=>{
 
   return(
-    <SkillsAll>
+    <SkillsAll id="skills">
 
-      <div className="skill-container">
-        <h2 className="category">SKILLS</h2>
+      <div  className="skill-container">
+        <h2  className="category">SKILLS</h2>
         <div className="skill-card">
           <div className="item"><img src={htmlImg} alt=""/>HTML5</div>
           <div className="item"><img src={cssImg} alt=""/>CSS3</div>
@@ -22,6 +22,8 @@ export const Skills=()=>{
           <div className="item">item</div>
           <div className="item">item</div>
         </div>
+
+
 
       </div>
     </SkillsAll>

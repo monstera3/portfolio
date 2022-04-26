@@ -6,7 +6,7 @@ import sample2Img from '../../assets/images/sample2.jpg';
 export const Profile=()=>{
 
   return(
-    <ProfileAll>
+    <ProfileAll id="profile">
       <div className="container-box">
         <img src={sample2Img} alt=""/>
         <div className="right-box">

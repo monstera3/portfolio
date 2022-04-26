@@ -9,11 +9,9 @@ export const Header=()=>{
     <HeaderAll>
       <img src={sampleImg} alt=""/>
       <ul>
-        <li><AnchorLink href="#dog">WORKS</AnchorLink></li>
-        <li>SKILLS</li>
-        <li>PROFILE</li>
-        <li></li>
-        <li><AnchorLink href="#cat">B</AnchorLink></li>
+        <li><AnchorLink href="#works">WORKS</AnchorLink></li>
+        <li><AnchorLink href="#skills">SKILLS</AnchorLink></li>
+        <li><AnchorLink href="#profile">PROFILE</AnchorLink></li>
       </ul>
 
 
