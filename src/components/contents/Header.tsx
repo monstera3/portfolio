@@ -1,6 +1,6 @@
 import sampleImg from '../../assets/images/sample1.png';
 import styled from 'styled-components';
-
+import AnchorLink from "react-anchor-link-smooth-scroll";
 
 
 export const Header=()=>{
@@ -9,10 +9,18 @@ export const Header=()=>{
     <HeaderAll>
       <img src={sampleImg} alt=""/>
       <ul>
-        <li>WORKS</li>
+        <li><AnchorLink href="#dog">WORKS</AnchorLink></li>
         <li>SKILLS</li>
         <li>PROFILE</li>
+        <li></li>
+        <li><AnchorLink href="#cat">B</AnchorLink></li>
       </ul>
+
+
+
+
+
+
     </HeaderAll>
 
   );
@@ -31,7 +39,13 @@ const HeaderAll = styled.div`
     ;
     li{
       padding-right: 5%;
+     
     }
   }
-  
+  #dog {
+    margin: 30px;
+  }
+  #cat {
+    margin: 30px;
+  }
 `;

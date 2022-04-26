@@ -7,7 +7,16 @@ export const Works=()=>{
 
   return(
     <WorksAll>
-      <h2 className="category">WORKS</h2>
+      <div className="work-card">
+
+      </div>
+      <h2 id="dog" className="category">WORKS</h2>
+
+      <section id="cat">
+      <span role="img" aria-label="cat">
+        🐱
+      </span>
+      </section>
 
     </WorksAll>
 
