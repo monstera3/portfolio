@@ -36,7 +36,7 @@ const HeaderAll = styled.div`
     display: flex;
     ;
     li{
-      padding-right: 5%;
+      padding-right: 50px;
      
     }
   }

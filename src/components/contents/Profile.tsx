@@ -32,7 +32,7 @@ const ProfileAll = styled.div`
   align-items: center;
   justify-content: center;
   .container-box{
-    background-color: #F0EFE0;
+    background-color: white;
     width: 100%;
     min-width: 750px;
     height: 80%;
