@@ -7,16 +7,16 @@ export const App = () => {
   const [color,setColor] = useState('#FEFEF2')
   const changeColor = () => {
     const y = window.scrollY;
-    if (y < 700) {
+    if (y < 900) {
       setColor('#FEFEF2');
-    } else if (700 <= y && y < 1400) {
-      setColor('#A8C6CA');
-    } else if (1400 <= y && y < 2100){
+    } else if (900 <= y && y < 1800) {
       setColor('#F5ECE4');
-    }else if (2100 <= y && y < 2800){
-      setColor('#6495ed');
+    } else if (1800 <= y && y < 2700){
+      setColor('#E9F0E3');
+    }else if (2700 <= y && y < 3600){
+      setColor('#F7F1EC');
     }else{
-      setColor('#FCE5CE');
+      setColor('#F0EFE0');
     }
   }
 
