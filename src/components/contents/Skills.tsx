@@ -40,17 +40,16 @@ const SkillsAll = styled.div`
   align-items: center;
   justify-content: center;
   .skill-container{
-    background-color: #F0EFE0;
+    background-color: #FFF;
     width: 80%;
     min-width: 750px;
     height: 80%;
     padding: 30px;
-    border-radius: 10px;
+    border-radius: 8px;
     border: 1px solid #dfdfdf;
     display: flex;
     align-items: center;
     flex-direction: column;
-    box-shadow: 9px 9px 19px -11px #777777;
     .category{
       text-align: center;
       font-size: 2rem;
@@ -64,9 +63,10 @@ const SkillsAll = styled.div`
       height: 400px;
       .item{
         background-color: white;
+        border: #5c93bb2b 1px solid;
+        border-radius: 8px;
         text-align: center;
         width: 150px;
-        box-shadow: 5px 8px 16px -10px #777777;
         display: flex;
         flex-direction: column;
         align-items: center;
