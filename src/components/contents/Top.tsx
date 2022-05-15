@@ -27,7 +27,7 @@ const TopAll = styled.div`
   display: flex;
   align-items: center;
   .title{
-    font-size: 2.4rem;
+    font-size: 2rem;
     line-height: 1.3;
     h1{
       animation: text-pop-up-top 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;

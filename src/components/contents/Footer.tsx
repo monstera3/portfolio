@@ -34,7 +34,7 @@ export const Footer=()=>{
 }
 
 const FooterAll = styled.div`
-
+  background-color: lightskyblue;
   .info{
     display: flex;
     justify-content: space-around;
