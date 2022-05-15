@@ -37,13 +37,11 @@ const ProfileAll = styled.div`
     min-width: 750px;
     height: 80%;
     padding: 30px;
-    border-radius: 10px;
+    border-radius: 8px;
     border: 1px solid #dfdfdf;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    box-shadow: 9px 9px 19px -11px #777777;
-    
     img{
       width: 300px;
     }
