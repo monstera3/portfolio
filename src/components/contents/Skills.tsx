@@ -33,7 +33,6 @@ export const Skills=()=>{
 }
 
 const SkillsAll = styled.div`
-  max-width: 1000px;
   margin: 0 auto;
   height: 50rem;
   display: flex;
@@ -41,8 +40,7 @@ const SkillsAll = styled.div`
   justify-content: center;
   .skill-container{
     background-color: #FFF;
-    width: 80%;
-    min-width: 750px;
+    width: 960px;
     height: 80%;
     padding: 30px;
     border-radius: 8px;
