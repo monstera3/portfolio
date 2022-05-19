@@ -28,7 +28,9 @@ export const Header=()=>{
 const HeaderAll = styled.div`
   display: flex;
   justify-content: space-between;
-  padding:2% 3%;
+  padding:2% 0%;
+  max-width: 960px;
+  margin: 0 auto;
   img{
     width: 50px;
   }
@@ -36,14 +38,14 @@ const HeaderAll = styled.div`
     display: flex;
     ;
     li{
-      padding-right: 50px;
+      padding-left: 50px;
      
     }
   }
   #dog {
-    margin: 30px;
+    //margin: 30px;
   }
   #cat {
-    margin: 30px;
+    //margin: 30px;
   }
 `;

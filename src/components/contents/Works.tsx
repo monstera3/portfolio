@@ -20,11 +20,11 @@ export const Works=()=>{
 }
 
 const WorksAll = styled.div`
-  max-width: 1000px;
+  max-width: 960px;
   margin: 0 auto;
   height: 50rem;
   .category{
-    text-align: center;
+    text-align: left;
     font-size: 2rem;
   }
 `;
