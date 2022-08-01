@@ -12,7 +12,6 @@ export const Top=()=>{
           <span >portfolio</span>
         </h1>
 
-        <p className="name">qqqqqqqqqqqqqq</p>
       </div>
     </TopAll>
 
