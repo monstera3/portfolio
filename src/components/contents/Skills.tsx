@@ -39,12 +39,10 @@ const SkillsAll = styled.div`
   align-items: center;
   justify-content: center;
   .skill-container{
-    background-color: #FFF;
     width: 960px;
     height: 80%;
     padding: 30px;
     border-radius: 8px;
-    border: 1px solid #dfdfdf;
     display: flex;
     align-items: center;
     flex-direction: column;

@@ -31,7 +31,6 @@ const WorksAll = styled.div`
     font-size: 2rem;
   }
   .work-card{
-    background-color: white;
     width: 30rem;
     height: 30em;
     border-radius: 8px;

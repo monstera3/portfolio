@@ -32,13 +32,11 @@ const ProfileAll = styled.div`
   align-items: center;
   justify-content: center;
   .container-box{
-    background-color: white;
     width: 100%;
     min-width: 750px;
     height: 80%;
     padding: 30px;
     border-radius: 8px;
-    border: 1px solid #dfdfdf;
     display: flex;
     justify-content: space-around;
     align-items: center;
