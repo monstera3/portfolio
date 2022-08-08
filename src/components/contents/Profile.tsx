@@ -12,6 +12,7 @@ export const Profile=()=>{
         <div className="right-box">
           <h2 className="category">PROFILE</h2>
           <p className="content-text">プロフィール</p>
+          <p className="content-text">text</p>
         </div>
 
       </div>
