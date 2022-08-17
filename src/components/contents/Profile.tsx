@@ -8,7 +8,7 @@ export const Profile=()=>{
   return(
     <ProfileAll id="profile">
       <div className="container-box">
-        <img src={sample2Img} alt=""/>
+        {/*<img src={sample2Img} alt=""/>*/}
         <div className="right-box">
           <h2 className="category">PROFILE</h2>
         </div>
