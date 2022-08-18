@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-import sample2Img from '../../assets/images/sample2.jpg';
 
 
 
